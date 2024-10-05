@@ -1,0 +1,90 @@
+body,html,#container{
+    font-family: "Pacifico",cursive;
+    font-size: 2rem;
+    font-style: normal;
+    height: 100%;
+}
+
+body,html,#container,#computer-div,#player-div,#win-statistics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body,html,#container,#computer-div,#player-div{
+    width: 100%;
+}
+
+body,html,#win-statistics p{
+    margin: 0;
+}
+
+#container{
+    flex-direction: column;
+    position: relative;
+}
+
+#computer-div,#player-div{
+    flex: 1;
+}
+
+#win-statistics{
+    position: absolute;
+    flex-direction: column;
+    padding: 0px;
+    height:75px;
+    width: 80%;
+    border-radius: 40px; 
+    font-size: .9rem;
+}
+
+#win-statistics p{
+    line-height: 35px;
+}
+
+#player-div{
+    display: flex;
+    flex-direction: column;
+}
+
+#player-div p{
+    margin: 10px;
+}
+
+.btn{
+    transition: 0.2s;
+    font-family: "Pacifico",cursive;
+    font-size: 2rem;
+    padding: 0 10px;
+    cursor: pointer;
+    font-style: normal;
+    border-radius: 70px;
+    background-color: white;
+    border: solid black 2px;
+}
+
+.hover-effect1:hover,.hover-effect2:hover{
+    transition: 0.2s;
+}
+
+.hover-effect1:active,.hover-effect2:active{
+    transition: 0.1s;
+}
+
+.hover-effect1:hover{
+    background-color: aqua;
+    border-color:rgb(222, 222, 222);
+    color: rgb(222, 222, 222);
+}
+
+.hover-effect1:active{
+    background-color: hotpink;
+}
+
+.hover-effect2:hover{
+    background-color: lightpink;
+}
+
+.hover-effect2:active{
+    background-color: lightblue;
+}

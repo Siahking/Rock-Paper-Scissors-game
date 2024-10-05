@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="computer-div">
+            <p id="computer-choice" class="user greyed">Computer</p>
+        </div>
+        <div id="win-statistics">
+            <p id="winner" ></p>
+            <p id="p2">Wins:<span id="wins">0</span></p>
+        </div>
+        <div id="player-div">
+            <p class="user greyed" id="selected-option">Player</p>
+            <div id="player-choice">
+                <button name="scissors" class="btn hover-effect1">Scissors</button>
+                <button name="rock" class="btn hover-effect1">Rock</button>
+                <button name="paper" class="btn hover-effect1">Paper</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
