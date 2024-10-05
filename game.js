@@ -70,7 +70,7 @@ btns.forEach(btn=>{
         if (conditions.win.includes(gameOutcome)){//compares the game outcome with the conditions
             wins.innerHTML++;
             outcome = 'You win';
-        }else if (conditions.tie.includes()) {
+        }else if (conditions.tie.includes(gameOutcome)) {
             outcome = 'Its a tie';
         }else{
             outcome = 'You lose';
